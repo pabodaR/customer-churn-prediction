@@ -35,10 +35,10 @@ Customer churn refers to the loss of clients or customers. This project aims to 
 ## Evaluation
 - Metrics: Accuracy
 -                    Train Accuracy  Test Accuracy
-Logistic Regression      0.811375         0.8110
-Decision Tree            1.000000         0.7765
-Random Forest            1.000000         0.8675
-Support Vector Machine   0.864750         0.8560
+-Logistic Regression      0.811375         0.8110
+-Decision Tree            1.000000         0.7765
+-Random Forest            1.000000         0.8675
+-Support Vector Machine   0.864750         0.8560
 
 ## Results
 -   The Logistics regression model performs well in both train and test sets showing good generalization with no overfitting.
