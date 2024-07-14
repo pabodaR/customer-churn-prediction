@@ -17,9 +17,8 @@ Customer churn refers to the loss of clients or customers. This project aims to 
 - **Features:** Data exploration, preprocessing, model selection, evaluation, visualization
 
 ## Dataset
-- **Source:** [https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset]
-- **Description:** [
-- his dataset is for ABC Multistate bank with columns, customer_id, credit_score, country, gender, age, tenure, balance, products_number, has_credit_card, is_active_member, estimated_salary, and exited, which is the churn variable used as the target. 1 if the client has left the bank during some period or 0 if he/she has not.]
+- **Source:** https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset
+- **Description:** This dataset is for ABC Multistate bank with columns, customer_id, credit_score, country, gender, age, tenure, balance, products_number, has_credit_card, is_active_member, estimated_salary, and exited, which is the churn variable used as the target. 1 if the client has left the bank during some period or 0 if he/she has not.
 
 ## Data Preprocessing
 - Handling missing values
@@ -35,11 +34,11 @@ Customer churn refers to the loss of clients or customers. This project aims to 
 
 ## Evaluation
 - Metrics: Accuracy
--                         Train Accuracy  Test Accuracy
-Logistic Regression           0.811375         0.8110
-Decision Tree                 1.000000         0.7765
-Random Forest                 1.000000         0.8675
-Support Vector Machine        0.864750         0.8560
+-                    Train Accuracy  Test Accuracy
+Logistic Regression      0.811375         0.8110
+Decision Tree            1.000000         0.7765
+Random Forest            1.000000         0.8675
+Support Vector Machine   0.864750         0.8560
 
 ## Results
 -   The Logistics regression model performs well in both train and test sets showing good generalization with no overfitting.
